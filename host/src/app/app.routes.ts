@@ -3,7 +3,7 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: '',
-    loadComponent: () => loadRemoteModule('remote', './Component').then((m) => m.App),
-  }
+    path: 'remote',
+    loadChildren: () => loadRemoteModule('remote', './Routes').then((m) => m.routes),
+  },
 ];
