@@ -1,2 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-@import "tailwindcss";
+@import 'tailwindcss' source(none);
+@source "./app/**/*.{html,js}";
+@source "../../remote/src/app/**/*.{html,js}";
+
+@theme {
+  --color-red-500: #FF3300;
+}

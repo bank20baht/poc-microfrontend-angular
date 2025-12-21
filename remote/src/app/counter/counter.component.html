@@ -1,6 +1,7 @@
-<p>counter works!</p>
+<div class="flex flex-col items-center justify-center mt-10 border border-red-200 border-dashed">
+  <div>{{ title }}</div>
+  <p class="text-lg text-red-500 font-bold">Current Count: {{ count }}</p>
+  <button class="bg-blue-300 m-2 p-2" (click)="increment()">Increment</button>
+  <button class="bg-blue-300 m-2 p-2" (click)="decrement()">Decrement</button>
+</div>
 
-<div>{{ title}}</div>
-<p style="color: brown;">Current Count: {{ count }}</p>
-<button (click)="increment()">Increment</button>
-<button (click)="decrement()">Decrement</button>
