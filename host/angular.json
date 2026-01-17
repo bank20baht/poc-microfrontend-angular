@@ -91,8 +91,7 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all",
-              "baseHref": "/portal-web/"
+              "outputHashing": "all"
             },
             "development": {
               "optimization": false,
