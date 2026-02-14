@@ -1,12 +1,12 @@
 {
-	"$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-	"version": 1,
-	"cli": {
-		"packageManager": "bun"
-	},
-	"newProjectRoot": "projects",
-	"projects": {
-		"remote": {
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "cli": {
+    "packageManager": "bun"
+  },
+  "newProjectRoot": "projects",
+  "projects": {
+    "remote": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": { "type": "component" },
@@ -92,7 +92,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/register-web/"
+              "baseHref": ""
             },
             "development": {
               "optimization": false,
@@ -119,5 +119,5 @@
         }
       }
     }
-	}
+  }
 }
